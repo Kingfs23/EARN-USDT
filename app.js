@@ -71,4 +71,4 @@ authPanel.addEventListener("submit", async (event) => {
   }
 });
 
-setMessage("GET STARTED.");
+setMessage("");
