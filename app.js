@@ -40,8 +40,8 @@ actionButtons.forEach((button) => {
     emailInput.focus();
     setMessage(
       button.dataset.authAction === "signup"
-        ? "Enter your email to prepare a signup flow."
-        : "Enter your email to prepare a login flow."
+        ? "Enter your email to prepare a signup."
+        : "Enter your email to prepare a login."
     );
   });
 });
@@ -71,4 +71,4 @@ authPanel.addEventListener("submit", async (event) => {
   }
 });
 
-setMessage("Static version ready for local preview, GitHub upload, and Vercel hosting.");
+setMessage("GET STARTED.");
